@@ -72,6 +72,15 @@ marketplace-analysis/
 │
 └── notes/
 ```
+## Top Selling Categories
+
+| Category | Items Sold |
+|-----------|-----------:|
+| Bed Bath Table | 11,115 |
+| Health Beauty | 9,670 |
+| Sports Leisure | 8,641 |
+| Furniture Decor | 8,334 |
+| Computers Accessories | 7,827 |
 
 ## Next Steps
 
