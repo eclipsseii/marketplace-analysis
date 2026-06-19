@@ -2,11 +2,13 @@
 
 ## Project Goal
 
-Analyze customer behavior, orders, and revenue metrics using a real e-commerce marketplace dataset.
+Analyze customer behavior, revenue metrics, and purchase patterns using the Olist Brazilian E-Commerce dataset.
 
 ## Dataset
 
-Brazilian E-Commerce Public Dataset by Olist.
+Source: Olist Brazilian E-Commerce Public Dataset
+
+The dataset contains information about customers, orders, payments, and products from a real Brazilian marketplace.
 
 ## Tools
 
@@ -15,7 +17,7 @@ Brazilian E-Commerce Public Dataset by Olist.
 - TablePlus
 - GitHub
 
-## Current Results
+## Key Metrics
 
 | Metric | Value |
 |----------|----------:|
@@ -23,6 +25,37 @@ Brazilian E-Commerce Public Dataset by Olist.
 | Unique Customers | 96,096 |
 | Total Revenue | 16,008,872.12 |
 | Average Order Value | 154.10 |
+| Orders per Customer | 1.03 |
+| Repeat Customers | 2,997 |
+| Repeat Customer Rate | 3.12% |
+
+## Key Findings
+
+### Customer Behavior
+
+- 96.9% of customers made only one purchase.
+- Only 3.12% of customers returned for additional purchases.
+- The average customer placed 1.03 orders.
+
+### Revenue
+
+- Total marketplace revenue exceeded 16 million.
+- Average order value was 154.10.
+
+### Order Fulfillment
+
+- 96,478 orders were successfully delivered.
+- Approximately 97% of all orders reached customers.
+
+## SQL Analysis
+
+Current analyses include:
+
+- Basic marketplace metrics
+- Customer behavior analysis
+- Repeat purchase analysis
+- Order status distribution
+- Revenue analysis
 
 ## Project Structure
 
@@ -30,24 +63,22 @@ Brazilian E-Commerce Public Dataset by Olist.
 marketplace-analysis/
 │
 ├── README.md
+│
 ├── sql/
+│   ├── 01_basic_metrics.sql
+│   └── 02_customer_analysis.sql
+│
 ├── images/
+│
 └── notes/
 ```
 
-## Key Findings
-
-- The marketplace contains 99,441 orders.
-- There are 96,096 unique customers.
-- Total revenue exceeds 16 million.
-- Average order value is 154.10.
-
 ## Next Steps
 
-- Customer behavior analysis
-- Repeat purchase analysis
 - Product category analysis
-- Revenue trends analysis
+- Revenue by category
+- Customer segmentation
+- Delivery performance analysis
 - Business recommendations
 
 ## Author
