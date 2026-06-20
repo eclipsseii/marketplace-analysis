@@ -182,14 +182,22 @@ images/
 
 ## 6. Sales Trend Analysis
 
-В разработке.
+### Orders by Month
 
-В этот раздел будут добавлены:
+The marketplace experienced steady growth throughout 2017.
 
-- количество заказов по месяцам;
-- выручка по месяцам;
-- месяцы с максимальным и минимальным объёмом продаж;
-- выводы о динамике роста маркетплейса.
+Peak sales volume was reached in November 2017 with 7,544 orders.
+
+### Revenue by Month
+
+Peak monthly revenue was also reached in November 2017, generating $1,194,882.80.
+
+### Insights
+
+- Order volume increased significantly throughout 2017.
+- Revenue growth followed a similar pattern.
+- November 2017 became the strongest month both in sales volume and revenue.
+- The marketplace demonstrates clear business growth over time.
 
 ---
 
