@@ -82,13 +82,20 @@ marketplace-analysis/
 | Furniture Decor | 8,334 |
 | Computers Accessories | 7,827 |
 
-## Next Steps
+## Top Categories by Revenue
 
-- Product category analysis
-- Revenue by category
-- Customer segmentation
-- Delivery performance analysis
-- Business recommendations
+| Category | Revenue |
+|-----------|---------:|
+| Bed Bath Table | 1,712,553 |
+| Health Beauty | 1,657,373 |
+| Computers Accessories | 1,585,330 |
+| Furniture Decor | 1,430,176 |
+| Watches Gifts | 1,429,216 |
+
+### Key Insight
+
+Although Bed Bath Table is the most frequently purchased category, Computers Accessories and Health Beauty generate almost the same revenue with fewer sales, indicating a higher average order value.
+
 
 ## Author
 
