@@ -34,19 +34,17 @@ SELECT
 FROM olist_orders_dataset;
 
 
--- 3. Average delivery time in days
-
 SELECT
     ROUND(
         AVG(
-            EXTRACT(
-                DAY FROM 
-                order_delivered_customer_date::timestamp 
-                - order_purchase_timestamp::timestamp
+            (
+                NULLIF(order_delivered_customer_date, '')::timestamp::date
+                - order_purchase_timestamp::timestamp::date
             )
         )::numeric,
         2
     ) AS avg_delivery_days
 FROM olist_orders_dataset
 WHERE order_status = 'delivered'
-  AND order_delivered_customer_date IS NOT NULL;
+  AND order_delivered_customer_date IS NOT NULL
+  AND order_delivered_customer_date <> '';
