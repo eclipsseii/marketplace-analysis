@@ -96,7 +96,19 @@ marketplace-analysis/
 
 Although Bed Bath Table is the most frequently purchased category, Computers Accessories and Health Beauty generate almost the same revenue with fewer sales, indicating a higher average order value.
 
+## Highest Average Order Value Categories
 
+| Category | Average Order Value |
+|-----------|-------------------:|
+| Computers | 1268.73 |
+| Fixed Telephony | 763.88 |
+| Agro Industry & Commerce | 471.15 |
+| Home Appliances 2 | 464.79 |
+| Office Furniture | 363.79 |
+
+### Key Insight
+
+Electronics and telecommunications products have the highest average order value. Although these categories generate fewer orders, they contribute significantly to total marketplace revenue.
 ## Author
 
 Elina Akhmetzyanova
